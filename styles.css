@@ -11,7 +11,7 @@
 
 .intro-container{
 	margin-top: 48px;
-	margin-bottom: 48px;
+	margin-bottom: 64px;
 }
 
 .project-container{
@@ -22,12 +22,16 @@
 .column-gallery {
     flex: 50%;
     max-width: 50%;
-    margin-bottom: 112px;
+    margin-bottom: 96px;
   }
 
 .column-gallery img {
   vertical-align: middle;
   width: 100%;
+}
+
+.project-container img {
+	border-radius: 12px;
 }
 
 .project-container h3 {
@@ -51,7 +55,7 @@
 .button-read-more{
   background-color: #f15025;
   border: none;
-  color: black;
+  color: white;
   padding: 12px 24px;
   text-align: center;
   text-decoration: none;

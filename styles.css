@@ -1,11 +1,12 @@
 .container {
-	font-family: 'Red Hat Mono', monospace;
+	font-family: 'Montserrat', sans-serif;
 	color: #191919;
 }
 
 .navigation {
 	text-align: center;
 	margin-top: 24px;
+	position: static;
 }
 
 .intro-container{
@@ -16,12 +17,12 @@
 .project-container{
 	display: flex;
 	flex-wrap: wrap;
-	padding: 0 4px;
 }
 
 .column-gallery {
     flex: 50%;
     max-width: 50%;
+    margin-bottom: 112px;
   }
 
 .column-gallery img {
@@ -29,9 +30,32 @@
   width: 100%;
 }
 
-@media screen and (max-width: 600px) {
+.project-container h3 {
+	font-weight: 500;
+}
+
+.project-container p {
+	font-weight: 300;
+}
+
+
+@media screen and (max-width: 1000px) {
   .column-gallery {
     flex: 100%;
     max-width: 100%;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
   }
+}
+
+.button-read-more{
+  background-color: #f15025;
+  border: none;
+  color: black;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 24px;
+  margin-top: 12px;
 }
